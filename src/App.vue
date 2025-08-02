@@ -1,7 +1,26 @@
-<script setup></script>
-
 <template>
-    <router-view/>
+  <div>
+
+
+      <router-view />
+ 
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import { ref, onMounted, computed } from 'vue'
+
+const sidebarOpen = ref(false)
+const sidebarCollapsed = ref(false)
+
+
+
+// ✅ Computed to check login state
+</script>
+
+<style scoped>
+.size-10 {
+  width: 40px;
+  height: 40px;
+}
+</style>
